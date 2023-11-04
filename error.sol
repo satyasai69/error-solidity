@@ -12,4 +12,9 @@ contract error {
             revert("Input must be greater than 10");
         }
     }
+    uint public num;
+    function asserterror() public view {
+       assert(0 == num);
+    }
+
 }
